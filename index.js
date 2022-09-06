@@ -12,8 +12,9 @@ app.get('/', (req, res) => {
 })
 
 app.get('*', (req, res) => {
-  res.send('404 page')
+  res.render('error404')
 })
+
 
 app.listen(3000, () => {
   console.log("I am alive port " + process.env.PORT)
