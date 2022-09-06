@@ -1,8 +1,11 @@
 {
   "dependencies": {
+    "bootstrap": "^5.2.0-beta1",
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
-    "nodemon": "^2.0.19"
+    "express-react-views": "^0.11.0",
+    "nodemon": "^2.0.19",
+    "react": "^18.2.0"
   },
   "name": "rest-rant",
   "version": "1.0.0",
@@ -21,6 +24,5 @@
     "url": "https://github.com/danielf9403/restaurant_app/issues"
   },
   "homepage": "https://github.com/danielf9403/restaurant_app#readme",
-  "devDependencies": {},
-  "description": ""
+  "description": "TBD - SUMMARY"
 }
