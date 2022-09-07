@@ -29,4 +29,4 @@ let placesFormatted = data.places.map((place, index) => {
         </main>
     </Def>
   )
-}
+
