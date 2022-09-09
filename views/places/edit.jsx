@@ -9,13 +9,13 @@ function edit_form () {
             <form method="POST" action={`/places/${data.place.id}?_method=PUT`}>
                 <div classname ="row">
                   <div className="form-group">
-                      <label htmlFor="name">Place Name</label>
-                      <input 
-                        className="form-control" 
-                        id="name" 
-                        name="name" 
-                        value={data.place.name} 
-                      required />
+                    <label htmlFor="name">Place Name</label>
+                    <input 
+                      className="form-control" 
+                      id="name" 
+                      name="name" 
+                      value={data.place.name} 
+                    required />
                   </div>
                 </div>
             </form>
